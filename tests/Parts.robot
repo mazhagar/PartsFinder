@@ -16,7 +16,6 @@ PartsFinder
 	DropDown       	3. Model   Legend 4 Wheel 1996-Current
 	VerifyText      Legend 4 Wheel 1996-Current
 	LogScreenshot
-	TypeText            QTY:            3     anchor=ZPEN6628
 	ClickText      	ADD TO CART	anchor=ZPEN6628	
 	VerifyText	Your Shopping Cart     
 	ClickText      	View Cart
