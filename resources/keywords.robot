@@ -7,6 +7,7 @@ Library             String
 *** Variables ***
 ${PartsFinder}				//*[@id\="body-wrapper"]/div/div[2]/div/div[6]/div[2]/div/div/a[1]/img
 ${BROWSER}                  chrome
+${Empty}		0.00
 
 
 *** Keywords ***
