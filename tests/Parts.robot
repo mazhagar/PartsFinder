@@ -25,3 +25,5 @@ PartsFinder
 	LogScreenshot
 	${SubTotal}	GetText		//*[@id\="orderSummaryOnCartPage"]/table/tbody/tr/td[2]/span/span
 	Should Not Be Equal	${SubTotal}	${Empty}
+	${ItemPrice}	GetText		//*[@id\="cart-mobile"]/tbody/tr/td[4]/span/span
+	Should Be Equal		${SubTotal}	${ItemPrice}
