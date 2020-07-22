@@ -23,3 +23,5 @@ PartsFinder
 	CaptureIcon	//*[@id\="cart-mobile"]/tbody/tr[1]/td[1]/span/a/img
 	${Item#}	GetText		//*[@id\="cart-mobile"]/tbody/tr[1]/td[3]
 	LogScreenshot
+	${SubTotal}	GetText		//*[@id\="orderSummaryOnCartPage"]/table/tbody/tr/td[2]/span/span
+	Should Not Be Equal	${SubTotal}	${Empty}
