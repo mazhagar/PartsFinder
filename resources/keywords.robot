@@ -5,7 +5,7 @@ Library             String
 
 
 *** Variables ***
-${PartsFinder}				//*[@class='shop-now']
+${PartsFinder}				//*[@class\='shop-now']
 ${BROWSER}                  chrome
 
 
